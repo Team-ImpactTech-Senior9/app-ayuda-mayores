@@ -19,3 +19,20 @@ App mobile diseñada para ayudar a adultos mayores con tareas cotidianas:
 3. `npx expo start`
 
 ## 📚 Estructura del Proyecto
+app-ayuda-mayores/
+├── App.js                      # Componente principal
+├── index.js                    # Punto de entrada (registerRootComponent)
+├── app.json                    # Configuración de Expo
+├── assets/                     # Imágenes, íconos y recursos estáticos
+├── src/
+│   ├── components/             # Componentes reutilizables de UI
+│   ├── screens/                # Pantallas de la aplicación
+│   ├── navigation/             # Configuración de navegación
+│   ├── services/               # Servicios externos (API, autenticación)
+│   ├── context/                # Estado global (React Context)
+│   ├── utils/                  # Funciones auxiliares
+│   ├── styles/                 # Estilos compartidos y temas
+│   └── constants/              # Constantes (colores, tamaños)
+├── .gitignore
+├── package.json                # Dependencias y scripts
+└── README.md                   # Documentación
